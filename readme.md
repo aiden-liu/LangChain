@@ -84,3 +84,8 @@ Sites:
 ### Prompt Engineering
    1. zero/one/few shot learning, by providing no/one/few examples for the LLM to figure out the answer. Paper: [Lost in the Middle: How Language Model Use Long Contexts](https://arxiv.org/pdf/2307.03172)
    2. [LangChain prompt template](https://python.langchain.com/v0.2/docs/concepts/#prompt-templates)
+   3. Output Parsers
+      * get_frmat_instructions()
+      * parse()
+      * parse_with_prompt
+   4. Serialization
