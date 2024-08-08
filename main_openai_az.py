@@ -35,7 +35,7 @@ chain = chat_prompt | model | csv_parser
 
 reply = chain.invoke({
     "domain": "Chemistry",
-    "input_string": "List all the elements that have single electron in the outermost layer",
+    "input_string": "List all the elements in the periodic table that have double electrons in the outermost layer",
     "format_instructions": csv_parser.get_format_instructions()
 })
 
