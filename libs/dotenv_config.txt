@@ -1,0 +1,12 @@
+OPENAI_API_KEY=xxxxxxxxxxxxxxxx
+HF_TOKEN=xxxxxxxxxxxxxxxx
+HF_HUB_CACHE=models
+PINECONE_API_KEY=xxxxxxxxxxxxxxx
+
+AZURE_OPENAI_API_KEY=xxxxxxxxxxxxxxx
+AZURE_OPENAI_ENDPOINT=https://xxxxxxxxxxxxxxxxxxx.openai.azure.com
+AZURE_OPENAI_DEPLOYMENT_NAME=xxxxxxxxxxxxx
+AZURE_OPENAI_API_VERSION=2023-03-15-preview
+
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=xxxxxxxxxxxxxxx

@@ -17,22 +17,21 @@ Sites:
 
 1. Create API key from [project](https://platform.openai.com/api-keys) or [organisation](https://platform.openai.com/organization/api-keys), they are the same. Then add a .env file to project root:
    ```bash
+   mkdir models
    touch .env
-   echo "OPENAI_API_KEY=xxxxxxxxxxxxxxxx" > .env
-   echo "HUGGINGFACEHUB_API_TOKEN=xxxxxxxxxxxxxxxx" >> .env
-   echo "PINECONE_API_KEY=xxxxxxxxxxxxxxx" >> .env
+   cat libs/dotenv_config.txt > .env
    ```
 1. [First Experiment](./labs/1.first_langchain_programe.ipynb)
 
 ### Core AI Technology
 * Natual language processing (NLP), started long way back of 1965, followed by a big boost of RNN (Recurrent neural networks).
    * Characteristics of RNN: 
-   1. Sophisticaed deep learning algorithms, model loops back on itself, an iterative process.
-   1. Good at finding patterns and relationships among sequences and data, like words or tokens.
+      1. Sophisticaed deep learning algorithms, model loops back on itself, an iterative process.
+      1. Good at finding patterns and relationships among sequences and data, like words or tokens.
    * Problem with RNN:
-   1. Vanishing gradient, because when outputs are looped back, its weight get very small.
-   1. Means model can quickly lose effectiveness, worse with larger datasets.
-   1. Interim solution: Long short-term memory networks (LSTMs), providing a memory cell to adjust weights through the system. But still not ideal.
+      1. Vanishing gradient, because when outputs are looped back, its weight get very small.
+      1. Means model can quickly lose effectiveness, worse with larger datasets.
+      1. Interim solution: Long short-term memory networks (LSTMs), providing a memory cell to adjust weights through the system. But still not ideal.
 * Attention Papers
    1. [Neural Machine Translation by Jointly Learning to Align and Translate (2014)](https://arxiv.org/pdf/1409.0473): Translation
    1. [Pointer Networks (2015)](https://arxiv.org/pdf/1506.03134)
